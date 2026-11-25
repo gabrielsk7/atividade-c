@@ -1,7 +1,6 @@
 #ifndef BANCO_H
 #define BANCO_H
 
-/* Assinaturas das funções do banco */
 void inicializar_banco(void);
 void abrir_banco(void);
 int banco_esta_aberto(void);
