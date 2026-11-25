@@ -4,7 +4,6 @@
 #include <time.h>
 #include "banco.h"
 
-/* Estrutura que guarda os dados de cada cliente */
 struct Cliente {
     char nome[50];
     int conta;
@@ -14,7 +13,6 @@ struct Cliente {
     int emprestimo;
 };
 
-/* Variaveis internas do banco */
 static struct Cliente c[100];
 static int qtd = 0;
 static int numero = 1000;
